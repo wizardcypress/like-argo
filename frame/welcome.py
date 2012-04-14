@@ -77,7 +77,6 @@ class Main(Frame):
     def initialize(self):
         self.write("\r\nThis part hasn't be finish.")
         self.write('\r\nCtrl+c to exit.')
-        while True: self.read()
 
     def get(self,data):
         if data == k_c_c :
